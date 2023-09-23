@@ -19,7 +19,7 @@ class CourseAdmin(admin.ModelAdmin):
 
 
 class LessonAdmin(admin.ModelAdmin):
-    list_display = ['title']
+    list_display = ['title'] 
 
 
 # <HINT> Register Question and Choice models here
